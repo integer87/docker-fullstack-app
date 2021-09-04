@@ -10,7 +10,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-db.pool.query("CREATE TABLE LISTS11 (ID INTEGER AUTO_INCREMENT, VALUE TEXT, PRIMARY KEY (ID))", (err, results, field) => {
+db.pool.query("CREATE TABLE LISTS (ID INTEGER AUTO_INCREMENT, VALUE TEXT, PRIMARY KEY (ID))", (err, results, field) => {
     
 
 
